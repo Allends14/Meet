@@ -25,3 +25,23 @@
 #container a {
   text-decoration: none;
 }
+.b-color {
+  color: lightpink;
+}
+
+.display {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.min-max-width{
+  max-width: 200px;
+  margin: 0 auto;
+}
+ion-card{
+background-color: transparent;
+}
+ion-content {
+  --background: linear-gradient(#000000, #696969);
+}

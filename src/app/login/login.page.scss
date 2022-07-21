@@ -1,0 +1,36 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-style: Georgia, serif;
+}
+ion-icon {
+    color: lightpink;
+}
+
+.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ion-content {
+    --background: linear-gradient(#000000, #696969);
+    }
+  .ion-activate {
+      background-color: transparent;
+      margin-left: auto;
+      margin-right: auto;
+      align-self: center;
+  }
+  .ion-activated {
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+  .card-bg{
+    background-color: transparent;
+   }
+  

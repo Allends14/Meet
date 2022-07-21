@@ -1,0 +1,38 @@
+requirements-page{
+    .card-background-page {
+        ion-card {
+          position: relative;
+          text-align: center;
+        }
+        .card-title{
+          position: absolute;
+          top: 90%;
+          font-size: 15.0cm;
+          width: 100%;
+          font-weight: bold;
+          color: black;
+        }
+        .card-subtitle{
+          font-size: 20.0cm;
+          position: absolute;
+        }
+    }
+      }
+    
+      .display {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .content-font{
+        font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
+        color: white;
+        font-size: 14px;
+      }
+      .title-center{
+        align-items: center;
+        font-size: 20px;
+      }
+      ion-content {
+        --background: linear-gradient(#000000, #696969);
+      }

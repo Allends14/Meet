@@ -1,0 +1,17 @@
+.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content-font{
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
+    color: white;
+    font-size: 22px;
+  }
+  ion-icon {
+    font-size: 38px;
+
+  }
+  ion-content {
+    --background: linear-gradient(#000000, #696969);
+  }

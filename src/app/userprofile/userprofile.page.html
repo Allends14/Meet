@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>userprofile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-icon name="person-circle-outline"></ion-icon>
+  <ion-card class="card-bg" background-color="transparent">
+    <br>
+          <ion-button expand="full" shape="round" class="ion-text-wrap min-max-width" color="danger" (click)="editprofile" [routerLink]="['/editprofile']"> Edit Profile </ion-button>
+          <br>
+          <ion-button expand="full" shape="round" class="ion-text-wrap min-max-width" color="danger" (click)="appointment" [routerLink]="['/appointment']"> Newsfeed </ion-button>
+          <br>
+          <ion-button expand="full" shape="round" class="ion-text-wrap min-max-width" color="danger" (click)="requirements" [routerLink]="['/requirements']">View Your Own Request </ion-button>
+          <br>
+          <ion-button expand="full" shape="round" class="ion-text-wrap min-max-width" color="danger" (click)="requirements" [routerLink]="['/requirements']">View Other Request </ion-button>
+          <br>
+          <ion-button expand="full" shape="round" class="ion-text-wrap min-max-width" color="danger" (click)="aboutus" [routerLink]="['/aboutus']"> View Appointment </ion-button>
+          <br>
+        </ion-card>
+        <br>
+    <div class="ion-activate">
+    <ion-card>
+    <ion-button type="submit" expand="block" fill="outline" color="danger" (click)="login" [routerLink]="['/login']">Logout</ion-button>
+  </ion-card>
+</div>
+

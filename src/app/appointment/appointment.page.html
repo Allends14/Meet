@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Hair-Mo News Feed</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content  [fullscreen]="true">
+  <img class="display" height="100px" width="100px" src="./assets/logo.png" />
+    <ion-card-content class="content-font">
+      <ion-card>
+      <ion-icon name="person-circle" slot="start"> </ion-icon>
+      Anna_Mendoza<br>
+      Please! I am looking for hair donor location: Batangas City.<br><br>
+      <ion-button type="submit" color="danger" expand="block" >Send Request</ion-button>
+      </ion-card>
+      <br>
+      <ion-card>
+      <ion-icon name="person-circle" slot="start"> </ion-icon>
+      Kysler Grey_23<br>
+      Hello, We are looking for my daughter hair donor, please help us! location: Calicanto Batangas City.<br><br>
+      <ion-button ype="submit" color="danger" expand="block">Send Request</ion-button>
+    </ion-card>
+      <br>
+    <ion-card>
+      <ion-icon name="person-circle" slot="start"> </ion-icon>
+      Jiro_302<br>
+      Hello, I am donor, I am willing to donate my hair for free.  
+      location: Malitam Batangas City.<br><br>
+      <ion-button ype="submit" color="danger" expand="block">Send Request</ion-button>
+    </ion-card>
+      <br>
+      <ion-button type="submit" color="dark" expand="block" [routerLink]="['/userprofile']">Back</ion-button>
+    
+
+     
+    </ion-card-content>
+ 
+
+
+</ion-content>
